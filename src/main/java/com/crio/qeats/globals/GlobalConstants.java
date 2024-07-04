@@ -1,4 +1,3 @@
-
 package com.crio.qeats.globals;
 
 public class GlobalConstants {
@@ -11,4 +10,8 @@ public class GlobalConstants {
   public static final String QUEUE_NAME = "rabbitmq-queue";
   public static final String ROUTING_KEY = "qeats.postorder";
 
+  // Precision for the GeoHash used in location-based operations
+  public static final int GEO_HASH_PRECISION = 12; // Example value, adjust as needed
+
 }
+
